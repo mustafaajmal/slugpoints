@@ -3,6 +3,7 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: navy;
     display: flex;
+    text-align: center;
     justify-content: center;
     flex-direction: column;
 }
@@ -10,6 +11,7 @@ body {
 .header {
     font-size: 25px;
     display: flex;
+    text-align: center;
     justify-content: center;
     flex-direction: column;
     margin-top: 25px;
@@ -17,6 +19,7 @@ body {
 
 h2 {
     display: flex;
+    text-align: center;
     justify-content: center;
     flex-direction: column;
     margin-top: 5px;
@@ -25,18 +28,26 @@ h2 {
 
 .par {
     display: flex;
+    text-align: center;
     justify-content: center;
     flex-direction: column;
     margin-top: 25px;
 }
 
 button {
-    width: 100px;
+    width: 250px;
+    height: 70px;
     background-color: beige;
     color: navy;
-    border-radius: 4px;
+    border-radius: 8px;
     border-style: groove;
     border-color: navy;
     margin-top: 25px;
     margin-right: 10px;
 }
+
+button:hover {
+    transition: 0.4s;
+    background-color: navy; /* Navy*/
+    color: white;
+  }
