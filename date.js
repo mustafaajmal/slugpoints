@@ -1,8 +1,7 @@
 var getday = function(){
     today = new Date();
     var date = "";
-    var month = "";
-    var dd = today.getDate()
+    var dd = today.getDate();
     var mm = today.getMonth(); //As January is 0.
     var yyyy = today.getFullYear();
     var monthList = ['Janurary', 'February', 'March', 

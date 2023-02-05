@@ -1,9 +1,9 @@
 body {
-    background: url(https://www.camposanto.com/external/wallpapers/Launch_Green/FWG_3440x1440.jpg) no-repeat center center fixed; 
+    /* background: url(https://www.camposanto.com/external/wallpapers/Launch_Green/FWG_3440x1440.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
+    background-size: cover; */
 
     background-color: beige;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -12,6 +12,7 @@ body {
     text-align: center;
     justify-content: center;
     flex-direction: column;
+    background-image: url("favicon.png");
 }
 
 .id {
@@ -24,10 +25,19 @@ body {
     text-align: center;
     justify-content: center;
     flex-direction: column;
-    margin-top: 45px;
+    margin-top: 30px;
     margin-bottom: 0px;
 }
 
+.footer {
+    display: flex;
+    background-color: beige;
+    border-radius: 10px;
+    font-size: 20px;
+    width: 75%;
+    text-align: center;
+    justify-content: center;
+}
 
 h2 {
     display: flex;
@@ -39,15 +49,33 @@ h2 {
     font-size: 15px;
 }
 
+h3 {
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
 .par {
     display: flex;
     text-align: center;
     justify-content: center;
     flex-direction: column;
-    margin-top: 10px;
+    margin-top: 30px;
+    font-size: 15px;
+    font-weight: bold;
 }
 
-button {
+.par2 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 0;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.blue {
     width: 250px;
     height: 70px;
     text-align: center;
@@ -57,14 +85,52 @@ button {
     border-radius: 8px;
     border-style: groove;
     border-color: navy;
-    margin-top: 40px;
+    margin-top: 20px;
     margin-right: 10px;
 }
 
-button:hover {
+.gold {
+    width: 250px;
+    height: 70px;
+    text-align: center;
+    background-color: beige;
+    color: navy;
+    font-size: 18px;
+    border-radius: 8px;
+    border-style: groove;
+    border-color: navy;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.banana {
+    width: 250px;
+    height: 70px;
+    text-align: center;
+    background-color: beige;
+    color: navy;
+    font-size: 18px;
+    border-radius: 8px;
+    border-style: groove;
+    border-color: navy;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.blue:hover {
     transition: 0.4s;
     background-color: navy; /* Navy*/
     color: beige;
-  }
+}
 
-  
+.gold:hover {
+    transition: 0.4s;
+    background-color: gold; /* Navy*/
+    color: blue;
+}
+
+.banana:hover {
+    transition: 0.4s;
+    background-color: yellow;
+    color: black;
+}
