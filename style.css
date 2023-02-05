@@ -134,5 +134,5 @@ h3 {
 .banana:hover {
     transition: 0.4s;
     background-color: yellow;
-    color: black;
+    color: blue;
 }
