@@ -1,4 +1,10 @@
 body {
+    background: url(https://www.camposanto.com/external/wallpapers/Launch_Green/FWG_3440x1440.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
     background-color: beige;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: navy;
