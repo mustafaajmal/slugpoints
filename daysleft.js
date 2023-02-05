@@ -31,7 +31,6 @@ function makeDates(list) {
     return date_list;
 }
 
-var daysleft = function (starts, ends) {
     const date = new Date();
     curr_start = starts[0];
     curr_end = ends[0];
