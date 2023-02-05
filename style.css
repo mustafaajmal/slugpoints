@@ -22,6 +22,16 @@ body {
     margin-top: 30px;
     margin-bottom: 0px;
 }
+.number {
+    font-size: 60px;
+    font-style: bold;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
 
 .footer {
     font-size: 18px;
