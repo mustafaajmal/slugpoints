@@ -3,20 +3,28 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: navy;
     display: flex;
+    text-align: center;
     justify-content: center;
     flex-direction: column;
 }
 
+.id {
+    font-size: 20px;
+}
+
 .header {
-    font-size: 25px;
+    font-size: 30px;
     display: flex;
+    text-align: center;
     justify-content: center;
     flex-direction: column;
     margin-top: 25px;
 }
 
+
 h2 {
     display: flex;
+    text-align: center;
     justify-content: center;
     flex-direction: column;
     margin-top: 5px;
@@ -25,18 +33,28 @@ h2 {
 
 .par {
     display: flex;
+    text-align: center;
     justify-content: center;
     flex-direction: column;
     margin-top: 25px;
 }
 
 button {
-    width: 100px;
+    width: 250px;
+    height: 70px;
+    text-align: center;
     background-color: beige;
     color: navy;
-    border-radius: 4px;
+    font-size: 18px;
+    border-radius: 8px;
     border-style: groove;
     border-color: navy;
     margin-top: 25px;
     margin-right: 10px;
 }
+
+button:hover {
+    transition: 0.4s;
+    background-color: navy; /* Navy*/
+    color: beige;
+  }
