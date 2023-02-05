@@ -48,4 +48,4 @@ var daysleft = function (starts, ends) {
     }
 }
 
-document.write(daysleft(makeDates(starting_dates), makeDates(ending_dates))); 
+document.write(`${daysleft(makeDates(starting_dates), makeDates(ending_dates))} days left in the quarter`); 
