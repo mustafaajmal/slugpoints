@@ -8,14 +8,19 @@ body {
     flex-direction: column;
 }
 
+.id {
+    font-size: 20px;
+}
+
 .header {
-    font-size: 25px;
+    font-size: 30px;
     display: flex;
     text-align: center;
     justify-content: center;
     flex-direction: column;
     margin-top: 25px;
 }
+
 
 h2 {
     display: flex;
@@ -37,8 +42,10 @@ h2 {
 button {
     width: 250px;
     height: 70px;
+    text-align: center;
     background-color: beige;
     color: navy;
+    font-size: 18px;
     border-radius: 8px;
     border-style: groove;
     border-color: navy;
@@ -49,5 +56,5 @@ button {
 button:hover {
     transition: 0.4s;
     background-color: navy; /* Navy*/
-    color: white;
+    color: beige;
   }
