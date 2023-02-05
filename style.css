@@ -30,13 +30,15 @@ body {
 }
 
 .footer {
-    display: flex;
-    background-color: beige;
-    border-radius: 10px;
     font-size: 20px;
-    width: 75%;
+    display: flex;
     text-align: center;
     justify-content: center;
+    flex-direction: column;
+    background-color: beige;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 h2 {
