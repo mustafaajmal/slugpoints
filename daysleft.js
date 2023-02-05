@@ -40,7 +40,7 @@ var daysleft = function (starts, ends) {
         curr_end = ends[i];
     }
     const diffTime = Math.abs(curr_end - date);
-    const diffDays = Math.ceil(diffTime / (100 * 60 * 60 * 24));
+    const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
     if (0 < diffDays) {
         return diffDays;
     } else {
