@@ -36,9 +36,9 @@ body {
     justify-content: center;
     flex-direction: column;
     background-color: beige;
-    width: 100%;
     margin-top: 30px;
     margin-bottom: 30px;
+    border-radius: 10px;
 }
 
 h2 {
