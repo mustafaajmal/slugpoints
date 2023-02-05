@@ -73,7 +73,7 @@ var pointsleft = function (plan) {
     return (mealsleft(plan) * 8.28).toFixed(2);
 }
 
-document.getElementById("daysleft").innerHTML = `${daysleft()} days) left in the quarter`;
+document.getElementById("daysleft").innerHTML = `${daysleft()} days left in the quarter`;
 
 
 function display(num) {
