@@ -1,0 +1,42 @@
+body {
+    background-color: beige;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: navy;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.header {
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 25px;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 5px;
+    font-size: 15px;
+}
+
+.par {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 25px;
+}
+
+button {
+    width: 100px;
+    background-color: beige;
+    color: navy;
+    border-radius: 4px;
+    border-style: groove;
+    border-color: navy;
+    margin-top: 25px;
+    margin-right: 10px;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+    </head>
+    <body class = "main">
+        <h1 class = "header">how many fucking slug points should i have?</h1>
+        <h2>on...</h2>
+        <p id = "date"></p>
+        <script>
+            var curday = function(){
+                today = new Date();
+                var date = " ";
+                var month = " ";
+                var dd = today.getDate();
+                var mm = today.getMonth()+1; //As January is 0.
+                var yyyy = today.getFullYear();
+                if(dd<10) dd='0'+dd;
+                if(mm<10) mm='0'+mm;
+                if(mm == 01){
+                    month = "January"
+                } else if(mm == 02){
+                    month = "February"
+                } else if(mm == 03){
+                    month = "March"
+                } else if(mm == 04){
+                    month = "April"
+                } else if(mm == 05){
+                    month = "May"
+                } else if(mm == 06){
+                    month = "June"
+                } else if(mm == 07){
+                    month = "July"
+                } else if(mm == 08){
+                    month = "August"
+                } else if(mm == 09){
+                    month = "September"
+                } else if(mm == 10){
+                    month = "October"
+                } else if(mm == 11){
+                    month = "November"
+                } else if(mm == 12){
+                    month = "December"
+                };
+                date = month + " " + dd + " " + yyyy; 
+                return(date);
+            };
+            document.getElementById("date").innerHTML = curday();
+        </script>
+        <p class = "par">let's be real, you have too many fucking slug points. you need to know how much you need to get rid of. this is the website for you!</p>
+        <div>
+            <button onclick = "second.html">Banana</button>
+            <button>Gold</button>
+            <button>Blue</button>
+        </div>
+    </body>
+</html>
