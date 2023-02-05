@@ -18,7 +18,8 @@ body {
     text-align: center;
     justify-content: center;
     flex-direction: column;
-    margin-top: 25px;
+    margin-top: 45px;
+    margin-bottom: 0px;
 }
 
 
@@ -27,7 +28,8 @@ h2 {
     text-align: center;
     justify-content: center;
     flex-direction: column;
-    margin-top: 5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
     font-size: 15px;
 }
 
@@ -36,7 +38,7 @@ h2 {
     text-align: center;
     justify-content: center;
     flex-direction: column;
-    margin-top: 25px;
+    margin-top: 10px;
 }
 
 button {
@@ -49,7 +51,7 @@ button {
     border-radius: 8px;
     border-style: groove;
     border-color: navy;
-    margin-top: 25px;
+    margin-top: 40px;
     margin-right: 10px;
 }
 
